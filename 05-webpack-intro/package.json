@@ -1,0 +1,21 @@
+{
+  "name": "05-webpack-intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "author": "Luca Hagel",
+  "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack -d --watch",
+    "build": "./node_modules/.bin/webpack -p"
+  },
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^1.14.0"
+  }
+}
