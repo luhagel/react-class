@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class AwseomeComponent extends React.Component {
+export default class AwesomeComponent extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -12,6 +12,7 @@ export default class AwseomeComponent extends React.Component {
   onLike() {
     this.setState({likesCount: this.state.likesCount + 1});
   }
+
   render() {
     return (
       <div>
